@@ -46,7 +46,7 @@ public class Student {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
+    }    
 
     public void setAge(int age) {
         this.age = age;
