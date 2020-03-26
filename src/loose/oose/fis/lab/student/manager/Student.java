@@ -68,7 +68,7 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
-
+    
     public void setMeanGrade(double meanGrade) {
         this.meanGrade = meanGrade;
     }
