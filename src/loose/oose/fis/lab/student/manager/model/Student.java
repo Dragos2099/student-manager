@@ -1,4 +1,4 @@
-package loose.oose.fis.lab.student.manager;
+package loose.oose.fis.lab.student.manager.model;
 
 import java.util.Objects;
 
@@ -40,7 +40,21 @@ public class Student {
     public int hashCode() {
         return Objects.hash(firstName, lastName, age, meanGrade);
     }
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setMeanGrade(double meanGrade) {
+        this.meanGrade = meanGrade;
+    }
     public String getFirstName() {
         return firstName;
     }
@@ -57,19 +71,5 @@ public class Student {
         return meanGrade;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-    
-    public void setMeanGrade(double meanGrade) {
-        this.meanGrade = meanGrade;
-    }
 }
